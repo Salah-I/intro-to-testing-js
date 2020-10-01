@@ -22,3 +22,4 @@ describe('sayHello', function() {
     });
     });
 
+expect(typeof sayHello()).toBe("string")
